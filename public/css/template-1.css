@@ -1,0 +1,130 @@
+* {
+  --nero: #343a40;
+  --grey: #212529;
+  --light-grey: #6c757d;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.page_block:not(:last-of-type) {
+  margin-bottom: 80px;
+}
+
+.header {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  font-size: 18px;
+}
+
+.line {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav_link {
+  color: var(--nero);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.nav_vertical {
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero_title {
+  font-weight: 500;
+  font-size: 56px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.hero_text {
+  padding: 0 187px;
+  color: var(--grey);
+  font-size: 20px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-header {
+  padding: 12px;
+  color: var(--grey);
+  font-size: 24px;
+}
+
+.card-body {
+  padding: 24px;
+}
+
+.card_price_amout {
+  font-size: 40px;
+  color: var(--grey);
+}
+
+.card_price_duration {
+  font-size: 29px;
+  color: var(--light-grey);
+}
+
+.card_dscr {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card_button {
+  display: block;
+  width: 100%;
+  font-size: 19px;
+  padding: 9px 0;
+}
+
+.footer {
+  padding: 24px 0;
+}
+
+.footer_copyright {
+  font-size: 14px;
+  color: var(--light-grey);
+  display: block;
+  margin-top: 12px;
+}
+
+.footer_title {
+  color: var(--grey);
+  font-size: 20px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.footer_links .nav_link {
+  font-size: 16px;
+  color: var(--light-grey);
+  display: block;
+}
