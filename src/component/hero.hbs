@@ -1,10 +1,16 @@
-<div class='hero'>
-  {{#with data}}
-    <h1 class='hero_title'>
-      {{title}}
-    </h1>
-    <div class='hero_text'>
-      {{text}}
-    </div>
-  {{/with}}
-</div>
+{{#with data}}
+  <h1 class='hero_title'>
+    {{title}}
+  </h1>
+  <div class='hero_text'>
+    {{text}}
+  </div>
+  {{#if button}}
+    {{#with button}}
+      <a
+        class='button hero_button'
+        href='{{url}}'
+      >{{text}}</a>
+    {{/with}}
+  {{/if}}
+{{/with}}
