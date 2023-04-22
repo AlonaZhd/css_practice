@@ -1,0 +1,19 @@
+<div class='preview_card'>
+  <div class='preview_header'>
+    <div class='preview_date'>{{date}}</div>
+    {{#each category}}
+      <span
+        class='preview_category preview_category_{{id}}'
+      >{{text}}</span>
+    {{/each}}
+  </div>
+  <h3 class='preview_title'>
+    {{title}}
+  </h3>
+  <p class='preview_descr'>
+    {{text}}
+  </p>
+  <a href='#' class='preview_link'>
+    Continue reading
+  </a>
+</div>
