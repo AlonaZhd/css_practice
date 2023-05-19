@@ -1,0 +1,36 @@
+* {
+  line-height: 100%;
+
+  --page-width: 1230px;
+  --color-white: #ffffff;
+  --color-purple: #611f69;
+  --color-text: #9ca3af;
+  --color-light: #f4ede4;
+
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-60: 60px;
+
+  --size-14: 14px;
+  --size-16: 16px;
+  --size-18: 18px;
+  --size-20: 20px;
+  --size-24: 24px;
+  --size-28: 28px;
+  --size-32: 32px;
+  --size-50: 50px;
+
+  --radius-1: 4px;
+
+  --opacity-1: 1;
+  --opacity-2: 0.7;
+  --opacity-3: 0.3;
+
+  --transition-1: 0.7s;
+
+  --line-height: 1.5em;
+}
