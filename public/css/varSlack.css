@@ -2,6 +2,11 @@
   line-height: 100%;
 
   --page-width: 1230px;
+  --page-width-l: 992px;
+  --page-width-m: 728px;
+  --page-width-s: 544px;
+  --page-width-xs: 303px;
+
   --color-white: #ffffff;
   --color-purple: #611f69;
   --color-text: #9ca3af;

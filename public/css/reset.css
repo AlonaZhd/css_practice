@@ -1,43 +1,55 @@
-*, *::before, *::after {
+@layer reset {
+  *,
+  *::before,
+  *::after {
     margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
-}
+  }
 
-a {
+  a {
     text-decoration: none;
     cursor: pointer;
-}
+  }
 
-ul, ol, li {
+  ul,
+  ol,
+  li {
     list-style: none;
-}
+  }
 
-img {
+  img {
     vertical-align: middle;
-}
+  }
 
-h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-weight: inherit;
     font-size: inherit;
-}
+  }
 
-html, body {
+  html,
+  body {
     margin: 0;
     padding: 0;
-}
+  }
 
-button {
-	border: none;
-	outline: none;
-    cursor: pointer;
-}
-
-input:focus-visible {
-    outline-offset: none;
-}
-
-:focus-visible {
+  button {
+    border: none;
     outline: none;
+    cursor: pointer;
+  }
+
+  input:focus-visible {
+    outline-offset: none;
+  }
+
+  :focus-visible {
+    outline: none;
+  }
 }
