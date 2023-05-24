@@ -1,0 +1,27 @@
+/*====== Responsive =======*/
+
+/* Large(Desktop): 1025px - 1299px */
+@media (max-width: 1299px) {
+}
+
+/* Medium(Tablet): 761px - 1024px */
+@media (max-width: 1024px) {
+  /*  .page--dashboard {
+    grid-template-columns: 1fr;
+    padding: 0 var(--space-8);
+  }
+  .sidebar {
+    display: none;
+  }*/
+}
+/* Small(Mobile): 576px - 760px */
+@media (max-width: 760px) {
+}
+/* Extra small(Mobile): 0px (320px) - 575px */
+@media (max-width: 575px) {
+}
+/*==================*/
+@media (min-width: 760px) {
+}
+@media (min-width: 1025px) {
+}

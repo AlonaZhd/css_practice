@@ -1,0 +1,52 @@
+* {
+  --page-width: 1920px;
+  --page-width-l: 992px;
+  --page-width-m: 728px;
+  --page-width-s: 544px;
+  --page-width-xs: 303px;
+
+  --color-white: #ffffff;
+  --color-light: rgba(255, 255, 255, 0.7);
+  --color-nero: #000000;
+  --color-sidebar-bg: #212529;
+  --color-bg: #efeff4;
+  --color-line: #ced4da;
+  --color-form: #bdbdbd;
+  --color-card: #e0e4e8;
+
+  --color-purple: #5b39ad;
+  --color-light-purple: rgba(255, 255, 255, 0.4);
+  --color-dark-purple: #402b9c;
+
+  --color-blue: #008be1;
+  --color-dark-blue: #0068bc;
+  --color-light-blue: #e1f3fc;
+
+  --color-light-yellow: #fff8e3;
+
+  --color-primary: #0d6efd;
+  --color-success: #00801b;
+  --color-warning: #f51b2a;
+
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-40: 40px;
+
+  --size-16: 16px;
+  --size-24: 24px;
+  --size-32: 32px;
+
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-16: 16px;
+
+  --opacity-1: 1;
+  --opacity-2: 0.7;
+  --opacity-3: 0.3;
+
+  --transition-1: 0.7s;
+
+  --line-height-2: 1.5em;
+}
