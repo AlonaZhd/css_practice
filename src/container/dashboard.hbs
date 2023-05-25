@@ -40,6 +40,7 @@
       </div>
     </nav>
   </aside>
+
   <header class='header'>
     <div class='layout horizon horizon--between'>
       <div class='header__search'>
@@ -57,22 +58,61 @@
           style='background-image: url(/img/dashboard/header/search-menu.svg);'
         ></span>
       </div>
-      <div class='horizon horizon--l'>
-        <span
-          class='icon icon--button icon-menu__item icon--bg-yellow click'
-          style='background-image: url(/img/dashboard/header/antenna-signal.svg);'
-        ></span>
-        <span
-          class='icon icon--button icon-menu__item icon--bg-blue click'
-          style='background-image: url(/img/dashboard/header/translate.svg);'
-        ></span>
-        <span
-          class='icon icon--button icon-menu__item icon--bg-yellow click'
-          style='background-image: url(/img/dashboard/header/bell.svg);'
-        ></span>
+      <div class='header__menu horizon horizon--l'>
+        <nav class='header__nav horizon horizon--s'>
+          <div class='nav__item nav__item--active click'>
+            <a
+              href='#'
+              class='nav-button horizon horizon--s'
+            >
+              <span
+                class='icon nav-button__icon'
+                style='background-image: url(/img/dashboard/nav/home.svg);'
+              ></span>
+              <span
+                class='nav-button__text text text--white'
+              >Home</span>
+            </a>
+          </div>
+          <div class='nav__item click click--outline'>
+            <a
+              href='#'
+              class='nav-button horizon horizon--s'
+            >
+              <span
+                class='nav-button__text text'
+              >Orders</span>
+            </a>
+          </div>
+          <div class='nav__item click click--outline'>
+            <a
+              href='#'
+              class='nav-button horizon horizon--s'
+            >
+              <span
+                class='nav-button__text text'
+              >Products</span>
+            </a>
+          </div>
+        </nav>
+        <div class='horizon horizon--l'>
+          <span
+            class='icon icon--button icon-menu__item icon--bg-yellow click'
+            style='background-image: url(/img/dashboard/header/antenna-signal.svg);'
+          ></span>
+          <span
+            class='icon icon--button icon-menu__item icon--bg-blue click'
+            style='background-image: url(/img/dashboard/header/translate.svg);'
+          ></span>
+          <span
+            class='icon icon--button icon-menu__item icon--bg-yellow click'
+            style='background-image: url(/img/dashboard/header/bell.svg);'
+          ></span>
+        </div>
       </div>
     </div>
   </header>
+
   <main class='main layout vertical vertical--l'>
     <section class='box analytic__block vertical'>
       <div class='analytic__card card--big card--bg-purple'>
@@ -136,6 +176,7 @@
         </div>
       </div>
     </section>
+
     <section class='box purchare__block vertical'>
       <h4 class='text text--bold text--subtitle'>Purchase
         list</h4>
@@ -178,11 +219,13 @@
         </div>
       </div>
     </section>
+
     <section class='box payment__block vertical'>
       <h4
         class='text text--bold text--subtitle'
       >Payment</h4>
       <span class='divider divider--main'></span>
+
       <div class='form__radio vertical vertical--s'>
         <div class='form-check horizon horizon--s click'>
           <input
@@ -215,6 +258,7 @@
           </label>
         </div>
       </div>
+
       <div class='form__label vertical'>
         <div class='label__block vertical vertical--xs'>
           <label class='field__label text text--field'>Name
@@ -240,7 +284,9 @@
           <input type='text' class='field' />
         </div>
       </div>
+
       <span class='divider divider--main'></span>
+
       <div class='form__select vertical'>
         <div class='select__block vertical vertical--xs'>
           <label
